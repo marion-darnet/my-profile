@@ -1,0 +1,108 @@
+body { 
+	background-color: lightgrey
+}
+
+body{
+	font-size: 3Opx;
+	letter-spacing: 1px
+}
+body{
+	font-family: Arial
+}
+
+body{
+	width: 700px
+	margin: 20px auto;
+}
+body {
+	color: black;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+
+}
+
+h1 {
+	color: #4267B2;
+	font-size: 40px;
+	font-weight: 900
+}
+
+
+h2{
+	color: #4267B2;
+	font-size: 20px
+	font-weight : lighter;
+	font-weight: 500;
+}
+h3{
+	color: #4267B2;
+	font-size: 20px
+	font-weight : lighter;
+	font-weight: 500;
+}
+
+
+
+a,li,i {
+	text-decoration: none;
+	color: #4267B2;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+}
+
+a, li, i:hover {
+	color: darkgrey;
+}
+
+/* Custon design with class*/
+
+.container {
+	width: 80%;
+	margin: 30px auto;
+	text-align: center;
+
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px
+	}
+}
+
+
+.box-white{
+	background-color: white;
+	padding: 40px;
+	
+	border-radius: 2px;
+	margin: 20px
+}
+
+.img-circle {
+	border-radius:50%;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
